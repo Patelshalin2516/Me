@@ -16,8 +16,8 @@ st.markdown(f"#### Welcome, {name}. Hope you're finding a little time to breathe
 hour = datetime.datetime.now().hour
 if hour < 12:
     time_greet = "Good Morning 🌞"
-elif 12 <= hour < 17:
-    time_greet = "Good Afternoon ☀️"
+# elif 12 <= hour < 17:
+#     time_greet = "Good Afternoon ☀️"
 else:
     time_greet = "Good Evening 🌙"
 
